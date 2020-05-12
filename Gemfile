@@ -58,3 +58,7 @@ end
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # DNeverov
 gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'bootstrap-sass', '~> 3.2.0.2'
+
+gem 'ransack', '~> 2.3', '>= 2.3.2'
+gem 'local_time', '~> 2.1'
