@@ -1,5 +1,5 @@
 <%#= div_for forum_post do %>
-<%= content_tag :div, id: forum_post do %>
+<%= content_tag :div, class: "forum_post", id: "forum_post_#{forum_post.id}" do %>
   <p class="text-muted">Posted by <%= forum_post.user.name %> <%= local_time_ago forum_post.created_at %></p>
   <p><%= markdownify forum_post.body %></p>
 <% end %>

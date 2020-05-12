@@ -7,6 +7,7 @@ class ForumThreadsController < ApplicationController
   end
 
   def show
+    @forum_post = ForumPost.new
   end
 
   def new
