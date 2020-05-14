@@ -4,7 +4,7 @@ class ForumThreadsController < ApplicationController
 
   def index
     @q = ForumThread.search(params[:q])
-    @forum_threads = @q.result
+    @forum_threads = @q.result(distinct: true)
   end
 
   def show
