@@ -2,5 +2,6 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require_relative 'config/application'
+load 'tasks/emoji.rake'
 
 Rails.application.load_tasks
