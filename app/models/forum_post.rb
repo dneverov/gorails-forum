@@ -15,6 +15,10 @@ class ForumPost < ApplicationRecord
 
   validates :body, presence: true
 
+  def user
+    User.unscoped { super }
+  end
+
   def send_notifications!
     users = forum_thread.users.uniq - [user]
     users.each do |user|
