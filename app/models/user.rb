@@ -32,7 +32,7 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable, :recoverable, :rememberable, :trackable
 
-  validates :email, presence: true
+  validates :email, presence: true, uniqueness: true
 
   has_many :forum_threads
   has_many :forum_posts
