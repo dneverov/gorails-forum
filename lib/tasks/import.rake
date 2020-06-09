@@ -8,9 +8,9 @@ namespace :import do
     counter = 0
 
     CSV.foreach(filename, headers: true, header_converters: :symbol) do |row|
-      user = User.new row.to_hash.slice(:email, :first_name, :last_name)
+      user = User.assign_from_row(row)
       if user.save
-        counter += 1 if user.persisted?
+        counter += 1
       else
         puts "  #{email} - #{user.errors.full_messages.join(',')}"
       end
