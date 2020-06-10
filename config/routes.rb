@@ -5,5 +5,7 @@ Rails.application.routes.draw do
     resources :forum_posts, module: :forum_threads
   end
 
+  resources :users, only: [:index]
+
   root to: "forum_threads#index"
 end
