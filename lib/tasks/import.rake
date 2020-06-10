@@ -1,5 +1,3 @@
-require 'csv'
-
 namespace :import do
 
   desc "Import users from CSV"
