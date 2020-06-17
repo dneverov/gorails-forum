@@ -5,7 +5,7 @@
 [Markdown and Emoji with the html-pipeline gem (ep.32)](https://gorails.com/episodes/32)
 
 <!--
-    44-upload-csv-form.mp4 -- [9:20]
+    44-upload-csv-form.mp4 -- DONE
     branch: episode_43_import-csv
 -->
 
