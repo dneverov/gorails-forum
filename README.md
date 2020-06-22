@@ -5,6 +5,12 @@
 [Markdown and Emoji with the html-pipeline gem (ep.32)](https://gorails.com/episodes/32)
 
 <!--
+    46-refactoring-csv-uploads-with-activemodel-model.mp4 -- DONE
+    45-export-to-csv.mp4 -- started.. остановлено (см. ниже)
+       похоже, 45 и 46 перепутаны -- на сайте https://gorails.com/episodes/45
+       это как раз Refactoring CSV Uploads with ActiveModel::Model,
+       а https://gorails.com/episodes/46 -- Exporting Records To CSV
+         + да, 46 скачалась. Похоже, надо делать из файла 46, а потом 45
     44-upload-csv-form.mp4 -- DONE
     branch: episode_43_import-csv
 -->
