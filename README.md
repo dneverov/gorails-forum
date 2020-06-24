@@ -6,7 +6,8 @@
 
 <!--
     46-refactoring-csv-uploads-with-activemodel-model.mp4 -- DONE
-    45-export-to-csv.mp4 -- started.. остановлено (см. ниже)
+    45-export-to-csv.mp4 (https://gorails.com/episodes/46) -- DONE
+         - для экспорта: localhost:3000/users.csv
        похоже, 45 и 46 перепутаны -- на сайте https://gorails.com/episodes/45
        это как раз Refactoring CSV Uploads with ActiveModel::Model,
        а https://gorails.com/episodes/46 -- Exporting Records To CSV
