@@ -80,7 +80,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    commonmarker (0.23.4)
+    commonmarker (0.23.6)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
     debug_inspector (0.0.3)
@@ -249,7 +249,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   coffee-rails (~> 4.2)
-  commonmarker (~> 0.23.4)
+  commonmarker (~> 0.23.6)
   devise (~> 4.7, >= 4.7.1)
   gemoji (~> 2.1.0)
   github-markdown (~> 0.6.9)
