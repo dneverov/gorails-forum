@@ -88,7 +88,7 @@ GEM
     autoprefixer-rails (9.7.6)
       execjs
     base64 (0.3.0)
-    bcrypt (3.1.21)
+    bcrypt (3.1.22)
     benchmark (0.5.0)
     better_errors (2.9.1)
       coderay (>= 1.0.0)
